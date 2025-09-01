@@ -147,6 +147,7 @@ body{
 .skills-section{
     padding: 5rem 8%;
     background: var(--darker-bg);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .skills-container{
@@ -155,8 +156,8 @@ body{
     gap: 2rem;
     margin-top: 3rem;
 }
-.section-title{
-     font-size: 4rem;
+.section-title-2{
+     font-size: 3rem;
     margin-bottom: 1.5rem;
     background: linear-gradient(30deg, var(--accent) 30%,
         #ffffff 70%);
@@ -185,6 +186,60 @@ body{
     margin-bottom: 1rem;
 }
 
+/* Contact Section */ 
+
+.contact-section{
+    padding: 5rem 8%;
+    background: var(--darker-bg, 0.9);
+    margin-top: 0%;
+}
+
+.section-title-3{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(30deg, var(--accent) 30%,
+        #ffffff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+.details-about-contact{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+
+}
+li{
+    list-style: none;
+    gap: 1rem;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    
+}
+
+li:hover{
+    color: var(--accent);
+}
+.details-text{
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.details-text:hover{
+    color: var(--accent);
+    border-bottom: 2px solid #27ae60;
+
+}
+.details-link{
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+    
+}
 /* Footer */
 
 footer{

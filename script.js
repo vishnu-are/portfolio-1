@@ -14,3 +14,8 @@ window.addEventListener("scroll", () => {
     ? (navbar.style.backgroundColor = "rgba(10, 10, 10, 0.98)")
     : (navbar.style.backgroundColor = "rgba(10, 10, 10, 9.5)");
 });
+
+let projects = document.getElementById("projects");
+projects.addEventListener("click", () => {
+  alert("Projects are not Mentioned at!");
+});
