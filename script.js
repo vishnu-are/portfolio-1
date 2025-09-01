@@ -19,3 +19,11 @@ let projects = document.getElementById("projects");
 projects.addEventListener("click", () => {
   alert("Projects are not Mentioned at!");
 });
+
+// Navbar toggle function
+let menuIcon = document.getElementById("menuIcon");
+let navLinks = document.getElementById("navLinks");
+
+menuIcon.addEventListener("click", () => {
+  navLinks.classList.toggle("nav-links-phone-add");
+});
